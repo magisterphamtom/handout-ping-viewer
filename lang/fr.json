@@ -1,0 +1,8 @@
+{
+  "HANDOUTPINGVIEWER.ZoomIn": "Zoomer",
+  "HANDOUTPINGVIEWER.ZoomOut": "Dézoomer",
+  "HANDOUTPINGVIEWER.Reset": "Réinitialiser la vue",
+  "HANDOUTPINGVIEWER.ForceView": "Forcer cette vue aux joueurs",
+  "HANDOUTPINGVIEWER.Broadcasted": "Vue envoyée aux joueurs : {title}",
+  "HANDOUTPINGVIEWER.NoSource": "Impossible de déterminer l'image à synchroniser."
+}

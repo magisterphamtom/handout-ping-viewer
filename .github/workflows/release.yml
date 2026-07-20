@@ -1,0 +1,30 @@
+name: Release Module
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Zip module
+        run: |
+          mkdir -p dist/handout-ping-viewer
+          rsync -a --exclude ".git" --exclude ".github" --exclude "dist" ./ dist/handout-ping-viewer/
+          cd dist
+          zip -r module.zip handout-ping-viewer
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/module.zip
+            module.json
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
