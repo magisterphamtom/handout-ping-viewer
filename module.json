@@ -2,10 +2,10 @@
   "id": "handout-ping-viewer",
   "title": "Handout Ping Viewer",
   "description": "Extends Foundry's native Image Popout with pinch-free pan & zoom (mouse wheel + drag), a GM 'Force View' button to sync zoom/position to all connected players, and a collaborative ping: anyone (GM or player) can click the image to drop an animated marker seen in real time by everyone already viewing that same handout.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "13",
-    "verified": "14"
+    "verified": "14.368"
   },
   "authors": [
     {
@@ -20,8 +20,16 @@
     "styles/handout-ping-viewer.css"
   ],
   "languages": [
-    { "lang": "en", "name": "English", "path": "lang/en.json" },
-    { "lang": "fr", "name": "Français", "path": "lang/fr.json" }
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
   ],
   "socket": true,
   "url": "https://github.com/magisterphamtom/handout-ping-viewer",
