@@ -37,5 +37,11 @@
   "download": "https://github.com/magisterphamtom/handout-ping-viewer/releases/latest/download/module.zip",
   "readme": "https://github.com/magisterphamtom/handout-ping-viewer/blob/main/README.md",
   "license": "https://github.com/magisterphamtom/handout-ping-viewer/blob/main/LICENSE",
-  "bugs": "https://github.com/magisterphamtom/handout-ping-viewer/issues"
+  "bugs": "https://github.com/magisterphamtom/handout-ping-viewer/issues",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/magisterphamtom/handout-ping-viewer/main/.github/banner.png"
+    }
+  ]
 }
