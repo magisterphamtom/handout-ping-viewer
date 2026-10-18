@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.png" alt="handout-ping-viewer" width="100%"></p>
+
 # Handout Ping Viewer
 
 A lightweight, free module for Foundry VTT that turns the native **Image Popout** window into a real handout tool — perfect for showing letters, maps, photos, or clues to your players and letting everyone examine and point things out together.
